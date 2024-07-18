@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .conteiner a, 
+section .conteiner a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+header .menu-text-area a {
+    color: blue;
+    border: 2px solid blue;
+    padding: 5px 20px;
+    margin-top: 16px;
+    display: inline-block;
+}
+
+
+
+header ul li {
+    display: inline;
+    margin-left: 24pt;
+    
+}
+
+header .menu-list-button {
+    background-color: blue;
+    padding: 5px 20px;
+    color: white;
+    font-size: 24px;
+}
+
+header .menu-list-button:hover {
+    background-color: blue;
+}
+
+header ul li a {
+    color: rgb(90, 90, 90);
+}
+
+header .menu-list {
+   padding: 16px;
+   margin-top: 24px;
+}
+
+header .menu-list li a:hover {
+    color: white;
+}
+
+
+.conteiner {
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: rgb(240, 227, 199);
+}
+
+header .conteiner img {
+    height: 460px;
+}
+
+.list-text {
+    display: block;
+    text-align: center;
+    margin-left: 24px;
+}
+
+.menu-text {
+    display: flex;
+    width: 500px;
+    height: 385px;
+    align-items: center;
+    
+}
+
+header .menu-list, 
+header .menu-text, 
+section .list-social {
+margin-right: 150px;
+    }
+
+.menu-text-area {
+    display: block;
+}
+
+header .menu-text .menu-text-area h1 {
+    font-size: 70px;
+    margin-bottom: 16px;
+}
+
+section .sections{
+    background-color: blue;
+}
+
+section .sections, 
+section .sections2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+section .sections-texts {
+    width: 400px;
+    margin-right: 25px;
+   margin-left: 25px;
+   text-align: center;
+   padding: 16px 0;
+}
+
+section .sections-texts h2 {
+    margin-bottom: 16px;
+}
+
+section .sections-texts a {
+    margin-top: 16px;
+    display: inline-block;
+}
+
+section .sections h2, 
+section .sections p,
+section .sections a {
+    color: #fff;
+}
+
+
+section .sections a, 
+section .rt .sections-texts a {
+    border: 2px solid white;
+    padding: 5px 20px;
+}
+
+section .sections2 {
+    background-color: rgb(240, 227, 199);
+}
+
+section .sections2 {
+    margin: 50px 0;
+}
+
+section .sections2-text {
+    text-align: center;
+    width: 400px;
+}
+
+section .sections2-text h2 {
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+
+section .sections2-text a {
+    border: 2px solid blue;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+.sections-texts-title {
+    font-size: 38px;
+    width: 250px;
+}
+
+
+
+section .rt .sections-texts {
+   width: 300px;
+}
+
+
+
+
+
+section input, 
+section textarea,
+section button {
+    width: 350px;
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+section input,
+section textarea:focus {
+    outline-color: blue;
+}
+
+#form-section button {
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+#form-section h2 {
+    margin-bottom: 16px;
+}
+
+.sections-texts-title2 {
+    font-size: 50px;
+    width: 300px;
+}
+
+#form-section ul li {
+    display: inline;
+}
+
+section .list-social {
+    display: block;
+    text-align: center;
+}
+
+section .list-social img {
+    height: 24px;
+}
+
+footer .conteiner {
+    display: block;
+    background-color: blue;
+    padding: 26px;
+    color: #fff;
+}
+
+footer .conteiner a {
+    color: #fff;
+}
